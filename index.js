@@ -44,7 +44,6 @@ const generateId = () => {
 }
 
 app.get('/api/notes', (req, res) => {
-    console.log("get1")
     res.json(notes)
 })
 
